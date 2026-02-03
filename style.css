@@ -58,16 +58,38 @@ a.nav:hover::after {
 }
 .box {
     background-color: #364022;
-    color: #879a53;
+
     font-family: 'Lexend';
     box-shadow: 0px 0px 5px 3px #364022;
     transition: box-shadow 0.8s , color 0.8s ease;
+    text-decoration: none;
+    .dompet {
+    color: #525845;
+    padding: 10px;
+    margin-top: -20px;
+    margin-bottom: -65px;
+    transition: color 1s ease;
+}
+}
+a.anav {
+    text-decoration: none;
+    color: #879a53;
+    transition: color 1s ease;
+}
+a.anav:hover {
+    text-decoration: none;
+    color: #ffffff;
 }
 .box:hover {
     box-shadow: 0px 0px 8px 5px #cff46b;
     color: white;
 
+    .dompet {
+    color:#ffffff;
 }
+
+}
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
